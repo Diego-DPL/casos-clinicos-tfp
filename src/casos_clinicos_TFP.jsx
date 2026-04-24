@@ -99,9 +99,9 @@ const casos = [
       { rol: "Paciente", texto: "Oye, te veo con mala cara hoy. ¿Estás bien? ¿Ha sido una semana dura? No te preocupes por mí hoy si no estás..." },
       { rol: "Terapeuta", texto: "Llevas diez segundos aquí y ya me estás cuidando a mí. ¿Qué te ha hecho pensar que tenía mala cara?" },
       { rol: "Paciente", texto: "No sé, algo en los ojos. Siempre lo noto. Desde pequeña, lo primero que hacía cuando llegaba mi padre a casa era mirarle la cara para saber cómo venía. Si venía bien, podía respirar. Si no... pues ya sabía lo que tocaba." },
-      { rol: "Terapeuta", texto: "Aprendiste de niña a escanear la cara de los demás antes de pensar en lo que necesitabas tú. Y lo acabas de hacer conmigo, nada más entrar. ¿Qué imaginas que pasaría si llegaras aquí sin mirarme, pensando solo en lo que necesitas?" },
-      { rol: "Paciente", texto: "(pausa, le tiembla un poco la voz) Que sería demasiado. Que te molestaría. Es que... si vengo con mis cosas, siento que de alguna manera... te estoy haciendo daño. O que me lo vas a hacer tú a mí. No sé muy bien." },
-      { rol: "Terapeuta", texto: "Para. En treinta segundos pasaste de cuidarme a mí a decir que tus propias necesidades causan daño. Eso no es una conclusión de hoy —es la díada entera mostrándose aquí, ahora. Quédate con eso un momento sin explicarlo." },
+      { rol: "Terapeuta", texto: "Lo aprendiste de niña: antes de entrar a casa, leer la cara para saber cómo venía. Aquí has hecho lo mismo nada más cruzar la puerta. ¿Qué esperas que pase si un día entras sin mirarme?" },
+      { rol: "Paciente", texto: "(pausa, le tiembla un poco la voz) Que te molesto. Que soy demasiado. Si vengo con lo mío... no sé, siento que te hago daño. O que tú me lo haces a mí. Las dos cosas a la vez, y no sé cuál me da más miedo." },
+      { rol: "Terapeuta", texto: "Para. En menos de un minuto pasaste de cuidarme a mí a decir que tus propias necesidades hacen daño. ¿Lo ves? Eso mismo que sientes ahora mismo, aquí, conmigo —eso es lo que traes contigo desde que eras niña." },
     ],
     diadaTroncal: {
       yo: "Yo peligroso (mis necesidades dañan o provocan daño)",
