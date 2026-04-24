@@ -8,9 +8,9 @@ const casos = [
     contexto: "Paciente mujer, 28 años, 3ª sesión de TFP. Historial de relaciones idealizadas que terminan en abandono.",
     dialogo: [
       { rol: "Paciente", texto: "Es que... no sé cómo explicarlo. Llevo años yendo a terapia y nunca había sentido esto. Como que por fin alguien me entiende de verdad. Mi madre jamás me escuchó así. Mis ex tampoco. Creo que si alguien puede ayudarme, eres tú." },
-      { rol: "Terapeuta", texto: "Me alegra que te sientas escuchada. Y a la vez me llama la atención cómo me describes: como alguien completamente diferente a todos los demás. Me pregunto qué hay detrás de eso." },
+      { rol: "Terapeuta", texto: "Me llama la atención lo que me describes: alguien completamente distinto a todos los demás, el único que puede ayudarte. ¿Qué está pasando aquí entre nosotras en este momento?" },
       { rol: "Paciente", texto: "¿Cómo que qué hay detrás? Pues que es verdad. ¿No puedo simplemente confiar en alguien sin que se convierta en un problema? (pausa, tono más tenso) O sea... ¿me estás diciendo que tampoco puedo fiarme de ti?" },
-      { rol: "Terapeuta", texto: "Fíjate lo que acaba de pasar: te hice una pregunta y en un segundo pasaste de sentirte comprendida a pensar que te iba a fallar. Ese movimiento tan rápido... ¿lo reconoces?" },
+      { rol: "Terapeuta", texto: "Fíjate lo que acaba de pasar: hice una pregunta y en segundos pasaste de idealizarme a verme como alguien que te va a traicionar. De salvadora a traidora. ¿Reconoces ese movimiento?" },
       { rol: "Paciente", texto: "(silencio largo, le cambia la cara) ...Sí. Lo hago siempre. Cuando empiezo a confiar en alguien, ya estoy buscando el momento en que me la va a liar. Y lo acabo de hacer contigo ahora mismo, ¿no?" },
     ],
     diadaTroncal: {
@@ -29,11 +29,11 @@ const casos = [
     contexto: "Paciente varón, 35 años, 8ª sesión. Antecedente de rupturas laborales por conflictos con superiores.",
     dialogo: [
       { rol: "Paciente", texto: "(entra 12 minutos tarde, deja el abrigo de golpe en la silla) El tráfico estaba imposible. Ya me imagino que me vas a cobrar igual la sesión entera, ¿no? Al final esto es un negocio como otro cualquiera." },
-      { rol: "Terapeuta", texto: "Sí, el tiempo corre desde la hora acordada. Y entro yo también a lo tuyo: vienes con mucha tensión. ¿Qué ha pasado hoy?" },
+      { rol: "Terapeuta", texto: "Sí, el tiempo corre desde la hora acordada. Entras con mucha tensión. ¿Qué ha pasado?" },
       { rol: "Paciente", texto: "Pues que Rodrigo, mi jefe, ha dicho delante de todo el equipo que mi informe era mediocre. Mediocre. Con lo que yo me he currado ese informe... ¿quién se cree que es?" },
-      { rol: "Terapeuta", texto: "Eso duele mucho, que te bajen delante de los demás. Me fijo en algo: llegas aquí y lo primero que sale es que yo también te estoy cobrando injustamente. Como si aquí también hubiese alguien que te trata mal." },
+      { rol: "Terapeuta", texto: "Noto algo: llegas aquí y lo primero que aparece es que yo también te cobro injustamente, que yo también te trato mal. ¿En qué me estás convirtiendo a mí en este momento?" },
       { rol: "Paciente", texto: "(resopla, cruza los brazos) Oye, no empieces a psicoanalizarme a mí ahora... (silencio) Bueno. Vale. Supongo que cuando me siento así, voy a por el primero que tengo delante. Que hoy has sido tú." },
-      { rol: "Terapeuta", texto: "Exacto. Y eso que acabas de ver, ese movimiento tuyo de atacar antes de que te ataquen, es muy importante. ¿De dónde crees que viene eso?" },
+      { rol: "Terapeuta", texto: "Exacto. Atacas antes de que te ataquen. Lo has hecho aquí conmigo nada más llegar, lo haces con Rodrigo. ¿Desde cuándo funciona así en ti?" },
     ],
     diadaTroncal: {
       yo: "Yo humillado e incomprendido",
@@ -55,7 +55,7 @@ const casos = [
       { rol: "Paciente", texto: "Nada. (pausa larga) Te llamé el martes por la noche. No cogiste." },
       { rol: "Terapeuta", texto: "Sí, vi la llamada. Era tarde, fuera del horario que tenemos acordado, y no respondí por eso. ¿Qué estaba pasando cuando llamaste?" },
       { rol: "Paciente", texto: "Que no podía más. Que sentía que me ahogaba y que necesitaba hablar con alguien. Contigo. (voz más baja) A veces siento que eres lo único que tengo. Y no estabas." },
-      { rol: "Terapeuta", texto: "Escucho mucho dolor en eso. Y también quiero que veamos juntas algo: cuando dices que soy 'lo único que tienes'... ¿ves el peso que eso le pone a lo que pasa aquí entre nosotras? ¿Y cuánto miedo hay detrás de necesitar eso?" },
+      { rol: "Terapeuta", texto: "Fíjate en lo que acabas de decir: que soy 'lo único que tienes'. Eso convierte este espacio en algo imposible —no puedo ocupar ese lugar, y el encuadre que tenemos lo delimita así. ¿Qué te pasa en este momento cuando te digo eso?" },
       { rol: "Paciente", texto: "Ya sé que es una barbaridad. Lo sé. Pero es que no sé estar sola sin sentir que me estoy cayendo por un agujero. No sé cómo se hace eso." },
     ],
     diadaTroncal: {
@@ -76,9 +76,9 @@ const casos = [
       { rol: "Paciente", texto: "Otra semana sin novedades. El trabajo va bien, como siempre. El tema sigue siendo Elena, que se empeña en que yo no la escucho. Pero claro, si lo que yo exijo en casa es lo mismo que nos ha dado el nivel de vida que tenemos..." },
       { rol: "Terapeuta", texto: "Fíjate que llevamos ya varias sesiones y el centro siempre es lo que Elena no entiende. ¿Qué hay de ti en todo esto? ¿Qué sientes tú en esa relación?" },
       { rol: "Paciente", texto: "¿Yo? Yo estoy bien. Frustrado con ella, sí, pero bien. Siempre he sido muy estable emocionalmente. Es una de mis virtudes." },
-      { rol: "Terapeuta", texto: "Estable... o quizás muy entrenado en no notar lo que sientes. Esta semana, ¿hubo algún momento, aunque fuera pequeño, en que algo te removiera por dentro?" },
+      { rol: "Terapeuta", texto: "Estable emocionalmente, o muy entrenado en no registrar lo que sientes. No es lo mismo. ¿Cuándo fue la última vez que algo te movió por dentro?" },
       { rol: "Paciente", texto: "(cambia el tono, más seco) Oye, yo no vengo aquí a que me digas que tengo problemas emocionales. Vengo porque mi mujer tiene un problema con mi forma de ser. No hay que buscarle tres pies al gato." },
-      { rol: "Terapeuta", texto: "Ahora mismo te has puesto a la defensiva. Eso también es una emoción, y está pasando aquí, conmigo, en este momento. ¿Podemos quedarnos un segundo en eso en lugar de salir corriendo de ello?" },
+      { rol: "Terapeuta", texto: "Ahora mismo te has puesto a la defensiva. Eso es una emoción, está pasando aquí, conmigo, en este momento. No lo pases de largo." },
       { rol: "Paciente", texto: "(pausa, descoloca un poco) ...No me gusta que me pillen en algo que no controlo. Supongo que eso también dice algo de mí, ¿no?" },
     ],
     diadaTroncal: {
@@ -99,9 +99,9 @@ const casos = [
       { rol: "Paciente", texto: "Oye, te veo con mala cara hoy. ¿Estás bien? ¿Ha sido una semana dura? No te preocupes por mí hoy si no estás..." },
       { rol: "Terapeuta", texto: "Llevas diez segundos aquí y ya me estás cuidando a mí. ¿Qué te ha hecho pensar que tenía mala cara?" },
       { rol: "Paciente", texto: "No sé, algo en los ojos. Siempre lo noto. Desde pequeña, lo primero que hacía cuando llegaba mi padre a casa era mirarle la cara para saber cómo venía. Si venía bien, podía respirar. Si no... pues ya sabía lo que tocaba." },
-      { rol: "Terapeuta", texto: "Eso es algo muy importante que acabas de decir. Aprendiste de niña a leer a los demás antes de pensar en ti. Y ahora lo haces aquí conmigo, nada más entrar. ¿Qué crees que pasaría si un día llegaras aquí pensando en lo que necesitas tú, sin mirar primero cómo estoy yo?" },
+      { rol: "Terapeuta", texto: "Aprendiste de niña a escanear la cara de los demás antes de pensar en lo que necesitabas tú. Y lo acabas de hacer conmigo, nada más entrar. ¿Qué imaginas que pasaría si llegaras aquí sin mirarme, pensando solo en lo que necesitas?" },
       { rol: "Paciente", texto: "(pausa, le tiembla un poco la voz) Que sería demasiado. Que te molestaría. Es que... si vengo con mis cosas, siento que de alguna manera... te estoy haciendo daño. O que me lo vas a hacer tú a mí. No sé muy bien." },
-      { rol: "Terapeuta", texto: "Para. Quédate ahí un momento. Empezaste preguntando por mí, y en treinta segundos has llegado a esto: que tus propias necesidades son peligrosas. Eso es exactamente lo que queremos entender. Eso es lo que llevas cargando desde niña." },
+      { rol: "Terapeuta", texto: "Para. En treinta segundos pasaste de cuidarme a mí a decir que tus propias necesidades causan daño. Eso no es una conclusión de hoy —es la díada entera mostrándose aquí, ahora. Quédate con eso un momento sin explicarlo." },
     ],
     diadaTroncal: {
       yo: "Yo peligroso (mis necesidades dañan o provocan daño)",
